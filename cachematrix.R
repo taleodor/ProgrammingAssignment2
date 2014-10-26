@@ -19,7 +19,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Function checking for a cached version of x inversion, and creating it, if not
+## Function returning the inversion of a matrix created with makeCacheMatrix
+## This function starts with checking for a cached version of x inversion
+## If a cached version doesn't exist, it will be created
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
