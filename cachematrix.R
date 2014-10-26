@@ -1,5 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The functions below return the inverse for an invertible matrix
+## If an inverse, has already been calculated once, it will be
+## returned from the cache later on
 
 ## Function creating a special matrix with caching properties
 
